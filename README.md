@@ -6,7 +6,7 @@ How  to set up Git, GitHub, and VS Code and push your first project.
 
 First things first, head over to [GitHub](https://github.com) and create an account.
 
-Its simple  just click **Sign up**, enter your details, verify your email, and boom  youre in!
+Its simple  just click **Sign up**, enter your details, verify your email and  youre in!
 
  ![GitHub signup page](github_account_creation.png)
 
