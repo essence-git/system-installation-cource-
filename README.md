@@ -8,8 +8,7 @@ First things first, head over to [GitHub](https://github.com) and create an acco
 
 Its simple  just click **Sign up**, enter your details, verify your email and  youre in!
 
- ![GitHub signup page](github_account_creation.png)
-
+ ![GitHub signup page](New folder\github_account_creation.png.png)
 
 ## 2. Install Chocolatey (Windows Only)
 
@@ -34,7 +33,7 @@ If youre on **Windows**, Chocolatey is a package manager that makes it super eas
 
 3. Once its done, restart PowerShell.
 
- ![PowerShell showing Chocolatey installation](images/chocolatey_installation.png)
+ ![PowerShell showing Chocolatey installation](system-installation-cource-/New folder/chocolatey_installation.png.png)
 
 ## 3. Install Windows Terminal
 
@@ -57,7 +56,7 @@ Once its done, check if it installed correctly:
 ```bash
 git --version
 
- ![Git installation check](images/git_command_test.png)
+ ![Git installation check](system-installation-cource-/New folder/git_command_test.png.png)
 
 ## 5. Install Visual Studio Code (VS Code)
 
@@ -92,7 +91,7 @@ Once open:
   - **Markdown All in One**
   - (Optional) **Python** if youll use Python later
 
- ![VSCode extensions installed](images/vscode_material_icon_extension.png)
+ ![VSCode extensions installed](system-installation-cource-/New folder/vscode_material_icon_extension.png.png)
 
 ## 8. Install SSH
 
@@ -117,7 +116,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 Just press **Enter** for each prompt unless you want to add a passphrase.
 
- ![SSH keygen command output](images/ssh_keygen_success.png)
+ ![SSH keygen command output](system-installation-cource-/New folder/sh_keygen_success.png.png)
 
 ## 10. Start and Setup the SSH Agent
 
@@ -132,7 +131,7 @@ Now add your private key to the agent:
 ```powershell
 ssh-add C:\Users\HP\.ssh\id_ed25519
 
- ![SSH agent confirmation](images/ssh_authentication_success.png)
+ ![SSH agent confirmation](system-installation-cource-/New folder/ssh_authentication_success.png.png)
 
 ## 11. Add Your Public Key to GitHub
 
@@ -146,7 +145,7 @@ Lets connect your computer to GitHub!
 3. Go to **GitHub  Settings  SSH and GPG Keys  New SSH key**.
 4. Paste the key, give it a name (like My Laptop), and save.
 
- ![GitHub SSH key addition](images/github_dashboard.png)
+ ![GitHub SSH key addition]
 
 ## 12. Test Your Connection
 
@@ -162,7 +161,6 @@ Hi your-username! You've successfully authenticated, but GitHub does not provide
 
 then  youre good to go!
 
- ![SSH connection success message](images/ssh_authentication_success.png)
 
 ## 13. Try Some Simple Git Commands
 
@@ -180,7 +178,7 @@ echo "# My First Repo" > README.md
 git add README.md
 git commit -m "First commit"
 
- ![Git init and first commit](images/05_git_command_test.png)
+ ![Git init and first commit](system-installation-cource-/New folder/git_command_test.png.png)
 
 ## 14. Create a Repository on GitHub
 
