@@ -2,18 +2,16 @@
 
 How to set up Git, GitHub, and VS Code and push your first project
 
-
 ## 1. Create a GitHub Account
 
 First things first, head over to [GitHub](https://github.com) and create an account.
 
 Its simple  just click **Sign up**, enter your details, verify your email, and boom  youre in!
 
- ![GitHub signup page](<installation images\github_account_creation.png>)
-
+![alt text](<installation images/github_account_creation.png>)
 ---
 
-## 2. Install Chocolatey for Windows Only
+## 2. Install Chocolatey for Windows 
 
 If youre on **Windows**, Chocolatey is a package manager that makes it super easy to install stuff.
 
@@ -29,13 +27,15 @@ If youre on **Windows**, Chocolatey is a package manager that makes it super eas
 
 3. Once its done, restart PowerShell.
 
- ![PowerShell showing Chocolatey installation](<installation images\chocolatey_installation.png>)
-
+ ![alt text](<installation images/chocolatey_installation.png>)
 ---
 
 ## 3. Install Windows Terminal
 
-![PowerShell showing Chocolatey installation](<>)
+![windows terminal at microsoft store](<installation images/terminal install.png>)
+
+![installed windows terminal](<installation images/vs terminal.png>)
+
 
 After Chocolatey is ready, type this command in PowerShell:
 
@@ -60,9 +60,7 @@ Once its done, check if it installed correctly:
 ```bash
 git --version
 ```
-
- ![Git installation check](<installation images\git_command_test.png>)
-
+![alt text](<installation images/git_command_test.png>)
 
 
 ## 5. Install Visual Studio Code (VS Code)
@@ -99,9 +97,7 @@ Once open:
   - **GitLens  Git supercharged**
   - **Markdown All in One**
   
- ![VSCode extensions installed](<installation images\vscode_material_icon_extension.png>)
-
-![VSCode extensions installed](<installation images\Screenshot 2025-10-02 160218.png>)
+ 
 
 These are examples of the extensions I installed on  my VS  code .
 
@@ -134,7 +130,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 Just press **Enter** for each prompt unless you want to add a passphrase.
 
- ![SSH keygen command output](<installation images\sh_keygen_success.png>)
+![SSH keygen command output](<installation images/sh_keygen_success.png>)
 
 
 
@@ -151,10 +147,9 @@ Now add your private key to the agent:
 
 ```powershell
 ssh-add C:\Users\HP\.ssh\id_ed25519
+
 ```
-
- ![SSH agent confirmation](<installation images\ssh_authentication_success.png>)
-
+![SSH agent confirmation](<installation images/ssh_authentication_success.png>)
 
 ## 11. Add Your Public Key to GitHub
 
@@ -168,8 +163,7 @@ Lets connect your computer to GitHub!
 3. Go to **GitHub  Settings  SSH and GPG Keys  New SSH key**.
 4. Paste the key, give it a name (like My Laptop), and save.
 
- ![GitHub SSH key addition](<installation images\github_dashboard.png>)
-
+![alt text](<installation images/github_dashboard.png>)
 
 
 ## 12. Test Your Connection
@@ -187,8 +181,7 @@ Hi your-username! You've successfully authenticated, but GitHub does not provide
 
 then  youre good to go!
 
- ![SSH connection success message](<installation images\ssh_authentication_success.png>)
-
+![SSH connection success message](<installation images/ssh_authentication_success.png>)
 
 
 ## 13. Try Some Simple Git Commands
@@ -256,14 +249,13 @@ In VS Code:
 
 ## 18. Push Your Changes
 
-Once youve made edits:
+Once youve made edits go to terminal at VS code and type 
 ```bash
-git add .
+git add . 
 git commit -m "Added installation guide"
 git push
 ```
 Go to github, refresh your page wait a few minutes then check your GitHub repo  your new Markdown file should be there!
 
-
-![repmarkdown at github ](<installation images\push at git.png>)
+![markdown at github](<installation images/push at git.png>)
 
